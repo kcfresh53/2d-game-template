@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M16 0L16 0L16 16L0 16L0 0L16 0Z" id="path_1" />
+    <clipPath id="clip_1">
+      <use xlink:href="#path_1" clip-rule="evenodd" fill-rule="evenodd" />
+    </clipPath>
+  </defs>
+  <g id="health_component">
+    <path d="M16 0L16 0L16 16L0 16L0 0L16 0Z" id="health_component" fill="none" stroke="none" />
+    <g id="corner" transform="translate(1.0472412 1)" clip-path="url(#clip_1)">
+      <path d="M2 0L2 0L2 4L0 4L0 1C0 0.44764 0.44764 0 1 0L2 0Z" id="Rectangle" fill="#8DA5F3" stroke="none" />
+      <path d="M2 0L4 0L4 2L2 2L2 0Z" id="Rectangle" fill="#8DA5F3" fill-rule="evenodd" stroke="none" />
+    </g>
+    <g id="corner" transform="matrix(-1 0 0 1 15 1)" clip-path="url(#clip_1)">
+      <path d="M2 0L2 0L2 4L0 4L0 1C0 0.44764 0.44764 0 1 0L2 0Z" id="Rectangle" fill="#8DA5F3" stroke="none" />
+      <path d="M2 0L4 0L4 2L2 2L2 0Z" id="Rectangle" fill="#8DA5F3" fill-rule="evenodd" stroke="none" />
+    </g>
+    <g id="corner" transform="matrix(-1 0 0 -1 15 15)" clip-path="url(#clip_1)">
+      <path d="M2 0L2 0L2 4L0 4L0 1C0 0.44764 0.44764 0 1 0L2 0Z" id="Rectangle" fill="#8DA5F3" stroke="none" />
+      <path d="M2 0L4 0L4 2L2 2L2 0Z" id="Rectangle" fill="#8DA5F3" fill-rule="evenodd" stroke="none" />
+    </g>
+    <g id="corner" transform="matrix(1 -0 0 -1 1 15)" clip-path="url(#clip_1)">
+      <path d="M2 0L2 0L2 4L0 4L0 1C0 0.44764 0.44764 0 1 0L2 0Z" id="Rectangle" fill="#8DA5F3" stroke="none" />
+      <path d="M2 0L4 0L4 2L2 2L2 0Z" id="Rectangle" fill="#8DA5F3" fill-rule="evenodd" stroke="none" />
+    </g>
+    <path d="M10.5221 8.5962C11.108 8.01033 11.108 7.06074 10.5221 6.47487C9.93625 5.88901 8.98666 5.88901 8.40079 6.47487L8.04724 6.82843L7.69369 6.47487C7.10782 5.88901 6.15823 5.88901 5.57237 6.47487C4.9865 7.06074 4.9865 8.01033 5.57237 8.59619L8.04724 11.0711L10.5221 8.5962Z" id="Rectangle-Union" fill="#8DA5F3" fill-rule="evenodd" stroke="none" clip-path="url(#clip_1)" />
+  </g>
+</svg>
