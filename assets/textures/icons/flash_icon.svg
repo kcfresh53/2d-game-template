@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M16 0L16 0L16 16L0 16L0 0L16 0Z" id="path_1" />
+    <clipPath id="clip_1">
+      <use xlink:href="#path_1" clip-rule="evenodd" fill-rule="evenodd" />
+    </clipPath>
+  </defs>
+  <g id="flash_component">
+    <path d="M16 0L16 0L16 16L0 16L0 0L16 0Z" id="flash_component" fill="none" stroke="none" />
+    <g id="corner" transform="translate(1.0472412 1)" clip-path="url(#clip_1)">
+      <path d="M2 0L2 0L2 4L0 4L0 1C0 0.44764 0.44764 0 1 0L2 0Z" id="Rectangle" fill="#8DA5F3" stroke="none" />
+      <path d="M2 0L4 0L4 2L2 2L2 0Z" id="Rectangle" fill="#8DA5F3" fill-rule="evenodd" stroke="none" />
+    </g>
+    <g id="corner" transform="matrix(-1 0 0 1 15 1)" clip-path="url(#clip_1)">
+      <path d="M2 0L2 0L2 4L0 4L0 1C0 0.44764 0.44764 0 1 0L2 0Z" id="Rectangle" fill="#8DA5F3" stroke="none" />
+      <path d="M2 0L4 0L4 2L2 2L2 0Z" id="Rectangle" fill="#8DA5F3" fill-rule="evenodd" stroke="none" />
+    </g>
+    <g id="corner" transform="matrix(-1 0 0 -1 15 15)" clip-path="url(#clip_1)">
+      <path d="M2 0L2 0L2 4L0 4L0 1C0 0.44764 0.44764 0 1 0L2 0Z" id="Rectangle" fill="#8DA5F3" stroke="none" />
+      <path d="M2 0L4 0L4 2L2 2L2 0Z" id="Rectangle" fill="#8DA5F3" fill-rule="evenodd" stroke="none" />
+    </g>
+    <g id="corner" transform="matrix(1 0 0 -1 1 15)" clip-path="url(#clip_1)">
+      <path d="M2 0L2 0L2 4L0 4L0 1C0 0.44764 0.44764 0 1 0L2 0Z" id="Rectangle" fill="#8DA5F3" stroke="none" />
+      <path d="M2 0L4 0L4 2L2 2L2 0Z" id="Rectangle" fill="#8DA5F3" fill-rule="evenodd" stroke="none" />
+    </g>
+    <path d="M8 5L8.57403 6.61418L10.1213 5.87868L9.38582 7.42597L11 8L9.38582 8.57403L10.1213 10.1213L8.57403 9.38582L8 11L7.42597 9.38582L5.87868 10.1213L6.61418 8.57403L5 8L6.61418 7.42597L5.87868 5.87868L7.42597 6.61418L8 5Z" id="Star" fill="#8DA5F3" fill-rule="evenodd" stroke="none" clip-path="url(#clip_1)" />
+  </g>
+</svg>

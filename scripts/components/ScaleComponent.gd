@@ -17,6 +17,7 @@ extends Node
 var original_size : Vector2
 var size_stored : bool
 
+
 ## This is the function that will activate this component
 func tween_scale() -> void:
 	# We store the sprites original size
