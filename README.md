@@ -6,9 +6,10 @@ Base template for component based 2D game development in Godot 4.
 
 * State machine
 * Wave system
-* Advanced Camera system
+* Advanced camera system
 * Health systems
 * Stats system
+* Bullet pattern system
 * Save system
 * Debug tools
 * etc.
