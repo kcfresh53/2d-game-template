@@ -1,3 +1,5 @@
+@icon("res://assets/textures/icons/hitbox_icon.svg")
+
 ## The hitbox component communicates with the health component to deal damage.
 class_name HitboxComponent
 extends Area2D
