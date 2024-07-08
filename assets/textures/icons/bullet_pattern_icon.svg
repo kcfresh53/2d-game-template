@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M16 0L16 0L16 16L0 16L0 0L16 0Z" id="path_1" />
+    <clipPath id="clip_1">
+      <use xlink:href="#path_1" clip-rule="evenodd" fill-rule="evenodd" />
+    </clipPath>
+  </defs>
+  <g id="bullet_pattern_component">
+    <path d="M16 0L16 0L16 16L0 16L0 0L16 0Z" id="bullet_pattern_component" fill="none" stroke="none" />
+    <g id="corner" transform="translate(1.0472412 1)" clip-path="url(#clip_1)">
+      <path d="M2 0L2 0L2 4L0 4L0 1C0 0.44764 0.44764 0 1 0L2 0Z" id="Rectangle" fill="#8DA5F3" stroke="none" />
+      <path d="M2 0L4 0L4 2L2 2L2 0Z" id="Rectangle" fill="#8DA5F3" fill-rule="evenodd" stroke="none" />
+    </g>
+    <g id="corner" transform="matrix(-1 0 0 1 15 1)" clip-path="url(#clip_1)">
+      <path d="M2 0L2 0L2 4L0 4L0 1C0 0.44764 0.44764 0 1 0L2 0Z" id="Rectangle" fill="#8DA5F3" stroke="none" />
+      <path d="M2 0L4 0L4 2L2 2L2 0Z" id="Rectangle" fill="#8DA5F3" fill-rule="evenodd" stroke="none" />
+    </g>
+    <g id="corner" transform="matrix(-1 0 0 -1 15 15)" clip-path="url(#clip_1)">
+      <path d="M2 0L2 0L2 4L0 4L0 1C0 0.44764 0.44764 0 1 0L2 0Z" id="Rectangle" fill="#8DA5F3" stroke="none" />
+      <path d="M2 0L4 0L4 2L2 2L2 0Z" id="Rectangle" fill="#8DA5F3" fill-rule="evenodd" stroke="none" />
+    </g>
+    <g id="corner" transform="matrix(1 0 0 -1 1 15)" clip-path="url(#clip_1)">
+      <path d="M2 0L2 0L2 4L0 4L0 1C0 0.44764 0.44764 0 1 0L2 0Z" id="Rectangle" fill="#8DA5F3" stroke="none" />
+      <path d="M2 0L4 0L4 2L2 2L2 0Z" id="Rectangle" fill="#8DA5F3" fill-rule="evenodd" stroke="none" />
+    </g>
+    <path d="M6.41666 6.86421C6.25737 7.15129 6.16666 7.4817 6.16666 7.83334L6.16666 10.8333L8.16666 10.8333L8.16666 9.16668L8.16667 9.16668C8.24013 9.16668 8.31162 9.15923 8.38184 9.1478L8.57292 9.36753C8.62526 9.42769 8.71307 9.44219 8.78223 9.40236L9.21778 9.15105C9.28695 9.11122 9.31816 9.02799 9.29233 8.95249L9.19792 8.6784C9.28904 8.56736 9.36106 8.44078 9.41277 8.30405L9.69858 8.24838C9.77691 8.23305 9.83334 8.16481 9.83334 8.08497L9.83334 7.58172C9.83334 7.50188 9.77691 7.43364 9.69858 7.41831L9.41277 7.36264C9.36104 7.22585 9.28877 7.09936 9.1976 6.98829L9.292 6.7142C9.318 6.6387 9.28695 6.55564 9.21778 6.51564L8.78191 6.26434C8.71274 6.2245 8.62526 6.239 8.57292 6.29917L8.38184 6.51889C8.31162 6.50746 8.24013 6.50001 8.16667 6.50001L8.16666 6.50001L8.16666 4.83334C7.20003 4.83334 6.41666 5.61671 6.41666 6.58334L6.41666 6.86421ZM8.16666 8.5L8.16666 7.16667L8.16667 7.16667C8.53484 7.16667 8.83334 7.46517 8.83334 7.83333C8.83334 8.2015 8.53484 8.5 8.16667 8.5L8.16666 8.5Z" id="Shape-Union" fill="#8DA5F3" fill-rule="evenodd" stroke="none" clip-path="url(#clip_1)" />
+  </g>
+</svg>

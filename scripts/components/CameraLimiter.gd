@@ -14,21 +14,20 @@ var _cam_limit_bottom : int
 
 
 func _ready() -> void:
-	
 	if camera_on_ready:
 		camera = get_tree().current_scene.get_node("%Camera2DPlus")
 		
-		area_exited.connect(on_area_exited)
+		area_exited.connect(_on_area_exited)
 		
 		_cam_limit_left = camera.limit_left
 		_cam_limit_right = camera.limit_right
 		_cam_limit_top = camera.limit_top
 		_cam_limit_bottom = camera.limit_bottom
 		
-	area_entered.connect(on_area_entered)
-	
+	area_entered.connect(_on_area_entered)
 
-func on_area_entered(_area: Area2D) -> void:
+
+func _on_area_entered(_area: Area2D) -> void:
 	if not camera_on_ready:
 		camera = get_tree().current_scene.get_node("%Camera2DPlus")
 	
@@ -43,7 +42,7 @@ func on_area_entered(_area: Area2D) -> void:
 	camera.limit_bottom = int(collision.global_position.y + bounds.end.y)
 
 
-func on_area_exited(_area: Area2D):
+func _on_area_exited(_area: Area2D):
 	camera.limit_left = _cam_limit_left
 	camera.limit_right = _cam_limit_right
 	camera.limit_top = _cam_limit_top
