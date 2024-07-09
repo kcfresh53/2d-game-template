@@ -13,3 +13,7 @@ Base template for component based 2D game development in Godot 4.
 * Save system
 * Debug tools
 * etc.
+
+___
+
+To get started, check out the [documentation](https://github.com/kcfresh53/2d-game-template/blob/master/DOCUMENTATION.md).
