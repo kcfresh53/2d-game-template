@@ -7,7 +7,7 @@ extends Path2D
 ## Bullet scene to instanciate.
 @export var bullet_node: PackedScene
 ## Bullet speed
-@export var bullet_speed: int = 200
+@export var bullet_speed: float = 200.0
 ## Determins if the path is a closed shape
 @export var closed: bool = true
 ## Bullet spawn frequency.

@@ -5,10 +5,10 @@
 class_name DamageboxComponent
 extends Area2D
 
-@export var _damage : int
+@export var damage : float
 
 func _ready() -> void:
-	area_entered.connect(collision)
+	area_entered.connect(_collision)
 
-func collision(hitbox : HitboxComponent):
-	hitbox.attack(_damage)
+func _collision(hitbox : HitboxComponent):
+	hitbox.attack(damage)

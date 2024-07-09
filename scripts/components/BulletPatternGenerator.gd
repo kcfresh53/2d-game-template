@@ -11,9 +11,9 @@ var _theta: float = 0.0
 ## Bullet scene to instanciate.
 @export var bullet_node: PackedScene
 ## Minimum bullet speed.
-@export var min_speed: int = 200
+@export var min_speed: float = 200.0
 ## Maximum bullet speed.
-@export var max_speed: int = 400
+@export var max_speed: float = 400.0
 ## Bullet spawn frequency.
 ## Controls the number of bullets spawned
 @export var spawn_frequency : float = 0.05: 
@@ -53,7 +53,7 @@ func _get_vector(angle):
 func _shoot(angle):
 	var bullet := bullet_node.instantiate()
 	bullet.position = global_position
-	bullet.speed = randi_range(min_speed, max_speed)
+	bullet.speed = randf_range(min_speed, max_speed)
 	bullet.direction = _get_vector(angle)
 	get_tree().current_scene.call_deferred("add_child",bullet)
 

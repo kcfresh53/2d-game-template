@@ -7,9 +7,9 @@ extends Node2D
 ## Entity stats
 @export var stat : Stats
 
-## Entity health property
+# Entity health property
 var _health : float
-## Entity maximum health property
+# Entity maximum health property
 var _max_health : float
 
 
@@ -17,7 +17,7 @@ var _max_health : float
 signal damage_taken(value : float)
 ## Is emited when health is changed
 signal health_changed(health : float)
-## Is emited when health and armor are depleted
+## Is emited when health is depleted
 signal health_depleted
 
 

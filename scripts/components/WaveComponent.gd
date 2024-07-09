@@ -20,7 +20,7 @@ signal wave_complete
 
 
 func _ready() -> void:
-	spawn_group.child_order_changed.connect(check_wave_state)
+	spawn_group.child_order_changed.connect(_check_wave_state)
 	if active:
 		start_wave()
 
@@ -30,8 +30,8 @@ func start_wave() -> void:
 		if spawn_positions[pos] != null:
 			spawner_components.pick_random().spawn(spawn_positions[pos].global_position, spawn_group)
 
-## Checks if a wave state is valid 
-func check_wave_state() -> bool:
+# Checks if a wave state is valid 
+func _check_wave_state() -> bool:
 	if active:
 		if spawn_group.get_child_count() == 0:
 			wave_complete.emit()
