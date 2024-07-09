@@ -17,10 +17,11 @@ config/icon="res://assets/textures/icons/icon.svg"
 [autoload]
 
 DebugCam="*res://addons/debug_camera/scripts/DebugCamAutoload.gd"
+MPIO="*res://addons/MultiplayCore/MPIO.gd"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/GodotSavesAddon/plugin.cfg", "res://addons/anthonyec.camera_preview/plugin.cfg", "res://addons/camera_2d_plus/plugin.cfg", "res://addons/debug_camera/plugin.cfg")
+enabled=PackedStringArray("res://addons/GodotSavesAddon/plugin.cfg", "res://addons/MultiplayCore/plugin.cfg", "res://addons/anthonyec.camera_preview/plugin.cfg", "res://addons/camera_2d_plus/plugin.cfg", "res://addons/debug_camera/plugin.cfg")
 
 [input]
 
