@@ -41,4 +41,3 @@ func _multiply_property(name : String, value : float) -> float:
 	
 	# return multiplied property
 	return self[name] * value
-
