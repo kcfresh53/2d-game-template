@@ -17,9 +17,11 @@ extends Node
 ## Down input
 @export var down_input : String = "ui_down"
 
-
 # Movement speed
 var _movement_speed : float
+
+## Signal to emit the last direction pressed
+signal last_direction_pressed(direction: String)
 
 
 func _ready() -> void:
@@ -30,3 +32,17 @@ func _ready() -> void:
 func _unhandled_input(_event: InputEvent) -> void:
 	var input_axis = Input.get_vector(left_input, right_input, up_input, down_input)
 	move_component.velocity = input_axis * _movement_speed
+	
+	# Dictionary to map input actions to directions
+	var directions = {
+		left_input: "left",
+		right_input: "right",
+		up_input: "up",
+		down_input: "down"
+	}
+	
+	# Iterate through the dictionary and emit the signal for the first action pressed
+	for action in directions.keys():
+		if Input.is_action_pressed(action):
+			last_direction_pressed.emit(directions[action])
+			break
