@@ -24,7 +24,7 @@ signal health_depleted
 func _ready() -> void:
 	if stat != null:
 		_health = stat.health
-		_max_health = stat.max_health
+		_max_health = stat.health
 
 
 ## Reduces the health by the provided value

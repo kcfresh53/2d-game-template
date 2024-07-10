@@ -16,5 +16,5 @@ func _ready() -> void:
 
 ## Is called when a damage component enters the hitbox. [br]
 ## [param amount] determines how much damage is done to the health component.
-func attack(amount : int) -> void:
+func attack(amount : float) -> void:
 	healthComponent.damage(amount)

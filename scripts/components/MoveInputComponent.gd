@@ -8,6 +8,8 @@ extends Node
 @export var stat : PlayerStats
 ## Move component
 @export var move_component : MoveComponent
+## Toggles input control
+@export var active : bool = true
 ## Left input
 @export var left_input : String = "ui_left"
 ## Right input
@@ -30,6 +32,9 @@ func _ready() -> void:
 
 
 func _unhandled_input(_event: InputEvent) -> void:
+	if !active:
+		return
+	
 	var input_axis = Input.get_vector(left_input, right_input, up_input, down_input)
 	move_component.velocity = input_axis * _movement_speed
 	
@@ -46,3 +51,8 @@ func _unhandled_input(_event: InputEvent) -> void:
 		if Input.is_action_pressed(action):
 			last_direction_pressed.emit(directions[action])
 			break
+
+
+func disable_input() -> void:
+	move_component.velocity = Vector2.ZERO
+	active = false
